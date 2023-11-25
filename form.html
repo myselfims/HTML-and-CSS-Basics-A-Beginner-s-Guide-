@@ -7,11 +7,12 @@
 <body>
     <form action="">
         <label for="name">Name</label>
-        <input placeholder="Enter your name" id="name" type="text" required><br>
+        <input placeholder="Enter your name" id="name" type="text"  required><br>
         <label for="email">Email</label>
         <input placeholder="Enter your email" id="email" type="email" required><br>
         <label for="password">Password</label>
         <input placeholder="Enter your password" id="password" type="password" required><br>
+        
         
         <select name="course" id="" required>
             <option selected disabled value="">Please select</option>
@@ -24,11 +25,12 @@
         <br>
         <input id="checkbox" type="checkbox" required> <label for="checkbox" >I am not a robot</label> <br>
         
-        <input type="number" required><br>
-        <input type="file"><br>
+        <label for="number">Number</label>
+        <input id="number" placeholder="Enter number here" type="number" required><br>
 
-        <textarea required name="" id="" cols="5" rows="10" placeholder="Type your message here..."></textarea>
-        
+        <input type="file" required><br>
+
+        <textarea placeholder="Type you message here..." name="" id="" cols="5" rows="10" required></textarea><br>
         <button type="submit">Submit</button><br>
     </form>
 </body>
