@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        width: 20vw;
+        height: 200vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        position: relative;
+    }
+    .child{
+        width: 10rem;
+        height: 10rem;
+        border: 4px solid black;
+        margin: 2rem;
+    }
+    #child1{
+        /*position: static;*/
+        /*position: relative;*/
+        /*position: fixed;*/
+        position: absolute;
+        background-color: white;
+        top: 10%;
+        left: 50%;
+    }
+</style>
+<body>
+    <div class="container">
+        <div id="child1" class="child"></div>
+        <div class="child"></div>
+    </div>
+</body>
+</html>
