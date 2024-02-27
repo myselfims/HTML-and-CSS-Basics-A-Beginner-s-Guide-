@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .sub-container{
+        width: 50vw;
+        height: 40vh;
+        border: 3px solid white;
+        padding: 4px;
+        /*overflow: scroll;*/
+        /*overflow-y: scroll;*/
+        overflow: auto;
+    }
+
+    .child{
+        width: 15vw;
+        height: 15vh;
+        border: 2px solid yellow;
+
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+        </div>
+    </div>
+</body>
+</html>
