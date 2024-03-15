@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    /*h1:hover{
+        color: blue;
+    }*/
+
+    h1:active{
+        background-color: red;
+    }
+
+    ul li:first-child{
+        color: green;
+    }
+
+    ul li:last-child{
+        color: red;
+    }
+    
+    /* an+b */
+    ul li:nth-child(3n + 4){
+        background-color: gray;
+    }
+
+    h1::before{
+        content: "IMS Coding ";
+        color: red;
+        padding: 2rem;
+        margin: 3rem;
+    }
+
+    h1::after{
+        content: '#heading1';
+        margin: 8px;
+        background-color: green;
+    }
+
+
+    p::first-letter{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: purple;
+    }
+
+    p::first-line{
+        background-color: brown;
+    }
+
+
+
+</style>
+
+<body>
+    <div class="container">
+        <h1>I am a heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, temporibus harum in possimus quibusdam illo aspernatur numquam vero nostrum impedit eveniet tempore odio aut commodi deserunt voluptate magnam ea, quod molestias non fugiat vel distinctio rem. Laborum aspernatur reiciendis delectus.</p>
+
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+            <li>Item 7</li>
+            <li>Item 8</li>
+            <li>Item 9</li>
+            <li>Item 10</li>
+        </ul>
+    </div>
+</body>
+</html>
