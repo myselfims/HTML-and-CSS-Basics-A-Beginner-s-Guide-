@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        /*animation-name: jump;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;*/
+        animation: jump 5s ease infinite reverse;
+    }
+
+
+    @keyframes jump {
+        0%{
+            margin-bottom: 0;
+        }
+        50%{
+            margin-bottom: 80px;
+        }
+        100%{
+            margin-bottom: 0;
+        }
+    }
+
+
+</style>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
