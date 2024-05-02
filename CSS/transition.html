@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        padding: 10px;
+        text-align: center;
+        border: 2px solid black;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+
+    .box:hover {
+        scale: 110%;
+        <!-- background-color: red; -->
+    }
+
+
+</style>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">
+            <h1>Im a box</h1>
+        </div>
+
+    </div>
+    
+</body>
+</html>
