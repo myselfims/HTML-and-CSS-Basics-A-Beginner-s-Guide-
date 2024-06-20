@@ -1,0 +1,30 @@
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 2px 0;
+    font-size: 16px;
+}
+
+.sub-div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    
+}
+
+button{
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(48, 48, 255);
+    color: white;
+    margin: 15px 0;
+    font-size: 16px;
+}
